@@ -8,7 +8,7 @@ printf "${install}Installing Requirements...\033[0m"
 printf "\n\n"
 pkg install zip -y
 pkg install unzip -y
-pkg install unzip -y
+pkg install ffmpeg -y
 mkdir "/sdcard/download/www.philiphacker.in"
 mkdir "/sdcard/download/www.philiphacker.in/ssinator"
 unzip -P ssinator ssinator
