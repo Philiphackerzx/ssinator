@@ -1,6 +1,6 @@
 # ssinator
 
-ssinator
+ssinator is a tool to make fake screenshots.
 
 ## Simple Guide to start (Installation) </h3>
 
