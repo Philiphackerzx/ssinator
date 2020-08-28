@@ -1,0 +1,16 @@
+termux-setup-storage
+install='\033[1;32m'
+clear
+printf "${intsall}One Time Installation.."
+sleep 1
+clear
+printf "${install}Installing Requirements...\033[0m"
+pkg install zip -y
+pkg install unzip -y
+mkdir "/sdcard/download/www.philiphacker.in"
+mkdir "/sdcard/download/www.philiphacker.in/ssinator"
+unzip -P ssinator ssinator
+cp updater /sdcard/download/www.philiphacker.in/ssinator/
+cp unins /sdcard/download/www.philiphacker.in/ssinator/
+echo 1 > check.io
+sh start

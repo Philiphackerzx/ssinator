@@ -1,0 +1,8 @@
+package=com.termux
+unins='\033[1;32m'
+rm -rf /data/data/com.termux/files/home/ssinator
+cd /sdcard/download/www.philiphacker.in/
+rm -rf ssinator
+NC='\033[0m'
+clear
+echo ${unins} ssinator - Uninstalled ✓ ${NC}

