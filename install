@@ -1,11 +1,13 @@
 termux-setup-storage
 install='\033[1;32m'
 clear
-printf "${intsall}One Time Installation.."
+printf "${install}One Time Installation.."
 sleep 1
 clear
 printf "${install}Installing Requirements...\033[0m"
+printf "\n\n"
 pkg install zip -y
+pkg install unzip -y
 pkg install unzip -y
 mkdir "/sdcard/download/www.philiphacker.in"
 mkdir "/sdcard/download/www.philiphacker.in/ssinator"
