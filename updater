@@ -11,7 +11,7 @@ cd ..
 rm -rf update
 clear
 
-if [ $version -eq 2 ]
+if [ $version -eq 3 ]
 then
 echo ${update}   Good News.. Update available !!
 echo ${nc}   Press any key to update now..
